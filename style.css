@@ -1,0 +1,147 @@
+html, body{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight:normal;
+    font-size: 80px;
+}   
+
+#subtitle {
+    text-align: center;
+    font-weight: normal;
+    margin-top: -1.5rem;
+}
+
+#shortbio h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -1rem;
+    
+    
+}
+
+.card {
+        background: rgb(255, 255, 255);
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        border: 1.5px solid rgb(227, 227, 227);
+        border-radius: 3rem;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+        margin-top: 2rem;        
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem 1.6rem;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+}
+.card h3{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+
+.card:hover, .card:focus {
+    color: #1a73e8;
+    transform: scale(1.05); 
+}
+
+.ProjectContainer1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.project{
+    display: flex;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1.5px solid rgb(227, 227, 227);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail_experience h3{
+    margin-top: 2.5rem;
+    display: flex;
+    
+}
+
+.resumehead{
+    display: flex;
+}
+
+.resumehead h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.resumehead h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.resumehead p {
+    margin: 0;
+    margin-left: auto; 
+    font-size: 0.65rem;
+    color: #969696;
+}
+.bio ul{
+    font-size: 1rem;
+    color: #505050;
+    
+    padding-left: 1rem
+}
+
+.detail_experience {
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border: 1.5px solid rgb(227, 227, 227);
+    margin: 1rem;
+    padding: 1rem;
+}
+.skilltable {
+    width: 100%;
+    margin-top: 0rem;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border: 1.5px solid rgb(227, 227, 227);
+    border-radius: 0.5rem;
+    padding: 1rem
+}
+
+.skilltable th, .skilltable td{
+    text-align: left;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #8b8b8b;
+    font-weight: normal;
+}
+
+.skilltable th {
+    font-weight: 500;
+    font-size: 1.2rem;
+    background: transparent;
+}
